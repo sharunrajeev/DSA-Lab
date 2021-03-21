@@ -44,7 +44,7 @@ class Stack {                       // Stack implementation of Array
     }
 }
 
-public class Lab2 {                 // Class Lab 2   
+public class LabA2 {                 // Class Lab 2   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array");

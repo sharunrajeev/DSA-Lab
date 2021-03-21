@@ -3,7 +3,7 @@
 
 import java.util.Scanner;                       // Import to use scanner in our project
 
-public class Lab1 {                             // Lab1 class 
+public class LabA1 {                            // LabA1 class 
     public static void main(String[] args) {    // Main function
         Scanner sc = new Scanner(System.in);    // Scanner to accept keyboard inputs
         int size;                               // Stores the size of the array

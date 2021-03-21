@@ -1,0 +1,10 @@
+LAB B QUESTIONS - 17/02/2021
+
+1. Write a program to convert
+	i. infix to postfix
+	ii. infix to prefix
+	iii. prefix to postfix
+2. Write a program to create a singly linked list and do the following
+	i. Find the average of middle 2 elements
+	ii. Delete last node
+	iii. Given 2 positions, swap the values at the positions

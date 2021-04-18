@@ -140,8 +140,6 @@ class InfixToPostfix {
 
 class InfixToPrefix {
     public static String infixToPrefix(String infix) {
-        InfixToPostfix ip = new InfixToPostfix();
-
         String expression = reverse(infix);
         char[] infixChar = expression.toCharArray();
 
@@ -153,7 +151,7 @@ class InfixToPrefix {
         }
 
         expression = String.valueOf(infixChar);
-        String prefix = reverse(ip.infixToPostfix(expression));
+        String prefix = reverse(InfixToPostfix.infixToPostfix(expression));
         return prefix;
     }
 
@@ -180,6 +178,7 @@ class PrefixToPostfix {
             case '-':
             case '*':
             case '/':
+            case '^':
                 return true;
         }
         return false;
